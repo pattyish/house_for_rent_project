@@ -1,0 +1,243 @@
+body{
+    margin: 0x;
+    padding: 0px;
+}
+header{
+   /* background: rgba(189, 226, 238, 0.4) !important;*/
+    background-image: url(../Properties_images/bg_img.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.top_header{
+    background:rgba(245, 221, 66);
+}
+.navbar-default .navbar-nav > li > a{
+    color:#fff !important;
+}
+
+.navbar-default .navbar-nav > .active > a{
+    background: rgba(0, 0, 240, 0.3) !important;
+}
+.rightbutton{
+ height: 42px;
+ width: 100%;
+ font-size: 15px !important;
+ margin-top:4px;
+ padding: 10px !important;
+
+}
+/* slide images of index*/
+.item .images{
+    height: 420px !important;
+    width: 100%;
+}
+.navbar-toggle{
+    border: 1px solid white !important;
+}
+.navbar-toggle span{
+    color: white !important;
+}
+.well{
+    margin-bottom: 10px !important;
+    background-color: none !important;
+    padding-left:18px !important;
+
+}
+#body_property_link a{
+    color:darkorange;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+#body_property_link a span{
+    background: darkorange;
+}
+
+#body_property_link a .active{
+    color: #fff !important;
+}
+#properties_container{
+    padding-bottom: 10%;
+}
+.home_propety .card{
+    border: 1px solid #ddd;
+    margin-bottom: 7px;
+    padding:10px;
+}
+.home_propety .card a{
+    text-decoration: none;
+    color:lightgreen;
+    font-weight: bold;
+}
+
+.dashboard_box1{
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding:10px;
+}
+}
+footer{
+    background-image: url(../Properties_images/bg_img.jpg);
+    background-position: center top;
+    background-size: cover;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.contact_box {
+    background: #fff;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 15px;
+    padding-bottom: 50px;
+    box-shadow: 0px 0px 12px 0px rgba(113, 117, 119, 0.2);
+}
+.fool-box i {
+    width: 65px;
+    height: 65px;
+    background: #FFFFFF;
+    text-align: center;
+    border-radius: 50%;
+    color: #0c91ce;
+    font-size: 32px;
+    display: block;
+    line-height: 60px;
+    margin: 0 auto;
+        margin-top: 0px;
+        margin-left: auto;
+    float: left;
+    margin-left: 25px;
+    margin-top: -85px;
+    -webkit-box-shadow: 0px 6px 18px -3px rgba(144,155,165,0.31);
+    -moz-box-shadow: 0px 6px 18px -3px rgba(144,155,165,0.31);
+    box-shadow: 0px 6px 18px -3px rgba(144,155,165,0.31);
+}
+
+/* property details style*/
+.main_imag img{
+    height: 400px;
+    width: 100%;
+}
+.imags
+{
+    display:grid; 
+    grid-template-columns:repeat(8, 1fr);
+}
+.imags img
+{
+   height: 15vh;
+    cursor: pointer;
+}
+
+@keyframes fadeIn{
+    to{
+        opacity: 1;
+    }
+}
+.fade-in{
+    opacity: 0.8;
+    animation: fadeout 0.5s ease 1 forwards;
+}
+/* horizantol silde*/
+.col-item
+{
+    border: 1px solid #E1E1E1;
+    border-radius: 5px;
+    background: #FFF;
+}
+.col-item .photo img
+{
+    margin: 0 auto;
+    width: 100%;
+}
+
+.col-item .info
+{
+    padding: 10px;
+    border-radius: 0 0 5px 5px;
+    margin-top: 1px;
+}
+
+.col-item:hover .info {
+    background-color: #F5F5DC;
+}
+.col-item .price
+{
+    /*width: 50%;*/
+    float: left;
+    margin-top: 5px;
+}
+
+.col-item .price h5
+{
+    line-height: 20px;
+    margin: 0;
+}
+
+.price-text-color
+{
+    color: #219FD1;
+}
+
+.col-item .info .rating
+{
+    color: #777;
+}
+
+.col-item .rating
+{
+    /*width: 50%;*/
+    float: left;
+    font-size: 17px;
+    text-align: right;
+    line-height: 52px;
+    margin-bottom: 10px;
+    height: 52px;
+}
+
+.col-item .separator
+{
+    border-top: 1px solid #E1E1E1;
+}
+
+.clear-left
+{
+    clear: left;
+}
+
+.col-item .separator p
+{
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.col-item .separator p i
+{
+    margin-right: 5px;
+}
+.col-item .btn-add
+{
+    width: 50%;
+    float: left;
+}
+
+.col-item .btn-add
+{
+    border-right: 1px solid #E1E1E1;
+}
+
+.col-item .btn-details
+{
+    width: 50%;
+    float: left;
+    padding-left: 10px;
+}
+.controls
+{
+    margin-top: 20px;
+}
+[data-slide="prev"]
+{
+    margin-right: 10px;
+}
