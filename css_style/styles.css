@@ -5,7 +5,7 @@ body{
 header{
    /* background: rgba(189, 226, 238, 0.4) !important;*/
     background-image: url(../Properties_images/bg_img.jpg);
-    background-position: center center;
+    background-position: center top;
     background-size: cover;
 }
 .top_header{
@@ -14,7 +14,20 @@ header{
 .navbar-default .navbar-nav > li > a{
     color:#fff !important;
 }
+ .searchbox select{
+text-align: center;
+ color: lightgray;
+ border-radius: 8px;
+ }
+.advertiser_sign_up input[type=text], input[type=password] {
+    text-align: center;
+    font-style: italic;
+}
+ .searchbox{
 
+background: rgba(255, 255, 255, 0.1) !important;
+  }
+      
 .navbar-default .navbar-nav > .active > a{
     background: rgba(0, 0, 240, 0.3) !important;
 }
