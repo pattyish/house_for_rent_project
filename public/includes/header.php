@@ -89,7 +89,7 @@
           <a href="login_for_adverter.php" class="btn btn-md btn-info rightbutton" > My Account</a>
 </div>
           <div class="col-md-6">
-          <a href="add_property.php" class="btn  btn-warning btn-sm rightbutton" >&nbsp;Register&nbsp; </a>
+          <a href="add_account.php" class="btn  btn-warning btn-sm rightbutton" >&nbsp;Register&nbsp; </a>
 </div>
 </div>
       </div>
