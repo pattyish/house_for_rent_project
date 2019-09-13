@@ -34,30 +34,40 @@
                         <a href="index.php" ><i class="fa fa-dashboard"></i> Dashboard</a>
                     </li>
                     <li>
-                        <a href="update_property.php"><i class="fa fa-pencil"></i> All Property</a>
+                        <a href="view_all_property.php"><i class="fa fa-pencil"></i> All Property</a>
                     </li>
                     <li>
-                        <a href="add_property_page.php"><i class="fa fa-gear"></i> Add Property</a>
+                        <a href="admin_add_pro_page.php"><i class="fa fa-gear"></i> Add Property</a>
                     </li>
     
 					<li>
-                        <a href="remove_property.php"><i class="fa fa-remove"></i> Remove Property</a>
+                        <a href="admin_rem_property.php"><i class="fa fa-remove"></i> Remove Property</a>
                     </li>
 					
                     <li>
-                        <a href="confirm_request.php"><i class="fa fa-pencil"></i> Comfirm request</a>
+                        <a href="confirm_req_admin_page.php"><i class="fa fa-pencil"></i> Comfirm request</a>
                     </li>
                     <li>
-                        <a href="confirm_request.php"><i class="fa fa-user"></i> User</a>
+                        <a href="all_advertisers.php"><i class="fa fa-user"></i> User</a>
                     </li>
-
+                        <li>
+                        <a href="all_advertisers.php"><i class="fa fa-user"></i> Transaction</a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-gear"></i> Reports
+                              <span class="caret"></span></a>
+                                   <ul class="dropdown-menu">
+                                <li><a href="#">daily report</a></li>
+                                 <li><a href="#">Weekly report</a></li>
+                                    <li><a href="#">Monthly Report</a></li>
+                                      </ul>
+                                        </li>
                     <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-gear"></i> Settings
                               <span class="caret"></span></a>
                                    <ul class="dropdown-menu">
                                  <li><a href="#">Profile</a></li>
                                     <li><a href="#">Change Password</a></li>
-                                    <li><a href="#">Transaction</a></li>
                                       </ul>
                                         </li>
 					   <li>
