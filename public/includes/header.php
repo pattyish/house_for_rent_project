@@ -4,7 +4,7 @@
 <header class="navbar navbar-default ">
 <section class="top_header">
 <div class="container-fluid">
-        <div class="row">
+        <div class="row hidden-xs">
             <div class="col-sm-12">
 
                                 <div class="pull-left">
@@ -49,7 +49,7 @@
         <span class="icon-bar"></span> 
       </button>    
       <a class="navbar-brand" href="index.php" style="font-size:30px;font-family:pristina; color:#fff; font-style:italic; font-weight:bold;"><strong>HOUSE</strong>&nbsp;<small style=
-      "color:orange;font-size:15px;">MOJOR</small></a>
+      "color:orange;font-size:15px;">MAJOR</small></a>
     </div>
       <div class="collapse navbar-collapse" id="myNavbar">
     <ul class="nav navbar-nav">
@@ -95,8 +95,8 @@
       </div>
   </div>
 </nav>
-<div class="container" style="padding-top:15px; padding-bottom:px;">
-<div class="well " style="padding-left:15px;">
+<div class="container hidden-xs" style="padding-top:15px; padding-bottom:px;">
+<div class=" well searchbox" style="padding-left:15px;">
   <div class="row search_input">
 <form class="form-inline">
    <div class="form-group ">
