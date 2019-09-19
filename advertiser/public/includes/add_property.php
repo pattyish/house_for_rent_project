@@ -56,6 +56,7 @@
   
   </div>
 <div class="form-inline form-item  form-type-number form-group">
+
 <label for="" class="control-label">Bed Rooms<span style="color:red; font-size:20px;">&nbsp;<strong>*</strong></span></label>
   <input type="number" class="form-number required form-control"  placeholder="" required="required" aria-required="true">
   
