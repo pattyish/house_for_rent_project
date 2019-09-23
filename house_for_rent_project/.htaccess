@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+   RewriteEngine on
+   RewriteCond %{REQUEST_FILENAME} !-f
+   RewriteCond %{REQUEST_FILENAME} !-d
+   RewriteRule ^(?!(admin)).*$ index.php [L]
+   RewriteRule ^admin/([a-z0-9]+)$ /admin/index.php [L]
+</Ifmodule>
